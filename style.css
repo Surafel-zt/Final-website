@@ -13,7 +13,6 @@ body {
     justify-content: center;
     font-family: 'Helvatica', sans-serif;
     background-color: white;
-    overflow-x: hidden;
 }
 
 button {
@@ -129,7 +128,6 @@ nav {
 
 .nav-btn-container ul {
     list-style-type: none;
-    overflow: hidden;
 }
 
 .nav-btn-container li {
@@ -190,7 +188,6 @@ li.show-ass {
     align-items: center;
     text-align: center;
     justify-content: center;
-    overflow-x: hidden;
 }
 
 .content-container {
@@ -215,7 +212,6 @@ li.show-ass {
     flex-direction: row;
     justify-content: space-between;
     grid-area: main;
-    overflow-x: hidden;
 }
 
 .main-content {
@@ -300,13 +296,15 @@ li.show-ass {
 
 .about-me h1,
 h3 {
-    font-size:medium;
+    font-size: medium;
     color: #848BA7;
 }
 
-.skills h1, h3 {
+.skills h1,
+h3 {
     padding-top: 0.1em;
 }
+
 .about-me h3 {
     padding-top: 2.5em;
     font-size: 25px;
@@ -362,8 +360,6 @@ h3 {
     width: 80px;
 }
 
-
-
 .more {
     width: 100px;
     height: 30px;
@@ -386,7 +382,6 @@ h3 {
     margin-top: 7em;
     -webkit-box-shadow: 0 0 10px rgb(122, 114, 114);
     box-shadow: 0 0 10px rgb(119, 112, 112);
-    overflow: hidden;
 }
 
 .main-assignment {
@@ -424,7 +419,7 @@ h3 {
     height: 3em;
 }
 
-@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 550px) {
     .logo-container {
         display: none;
     }
@@ -463,7 +458,6 @@ h3 {
         align-items: center;
         text-align: center;
         justify-content: center;
-        overflow-x: hidden;
     }
     .content-container {
         width: 100%;
