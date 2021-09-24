@@ -13,7 +13,6 @@ body {
     justify-content: center;
     font-family: 'Josefin Sans', sans-serif;
     background-color: white;
-    overflow-x: hidden;
 }
 
 button {
@@ -66,7 +65,6 @@ h4 {
     align-items: center;
     text-align: center;
     justify-content: center;
-    overflow-x: hidden;
 }
 
 nav {
@@ -193,7 +191,6 @@ li.show-ass {
     margin-top: 7em;
     -webkit-box-shadow: 0 0 10px rgb(122, 114, 114);
     box-shadow: 0 0 10px rgb(119, 112, 112);
-    overflow: hidden;
 }
 
 .main-assignment {
